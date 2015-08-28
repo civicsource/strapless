@@ -27,7 +27,7 @@ browserify ES5 style:
 var bootstrap = require("@yournpmfeed/strapless").bootstrap;
 ```
 
-## Example use in a react component's render method:
+## Example use in some dumb React component
 
 ```javascript
 import React from "react";

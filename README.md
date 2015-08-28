@@ -4,6 +4,7 @@
 ## Why does this exist?!?!?!
 
 So we can `require` shared vars from bootstrap for consistent look & feel without fooling with paths to less files after an `npm dedupe`.
+**If you just want to use an existing bootstrap style, just use the class and inject precompiled bootstrap.**
 
 See [this explanation](http://caitpotter.blogspot.com/2013/08/strapless-unadulterated-twbs-without.html) by somebody who came up with a similar idea and the same package name.
 

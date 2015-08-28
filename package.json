@@ -1,0 +1,22 @@
+{
+  "name": "@civicsource/strapless",
+  "version": "0.1.0",
+  "description": "A collection of shared variables from bootstrap and our own mixins",
+  "main": "index.js",
+  "author": "Archon Information Systems",
+  "license": "SEE LICENSE IN LICENSE",
+  "scripts": {
+    "build": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/civicsource/bootplop.git"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.5",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-less2js": "^0.1.4",
+    "less": "^1.7.5"
+  }
+}

@@ -11,7 +11,7 @@ See [this explanation](http://caitpotter.blogspot.com/2013/08/strapless-unadulte
 ## How do I use this stupid thing!!?!?!?!?!
 
 ```
-npm install --save-dev @civicsource/strapless
+npm install @civicsource/strapless --save
 ```
 
 Then in your app's code:

@@ -37,7 +37,7 @@ import Color from "color-forge";
 export default class MyPrettyPony extends React.Component {
 	render() {
 		// the pony will run away if you get its haircut too dirty
-		const maneColor = Color(bootstrap.grayLighter).mix(Color(botstrap.grayDark), (this.props.petCount / this.props.ponyPatienceThreshold);
+		const maneColor = Color(bootstrap.grayLighter).mix(Color(bootstrap.grayDark), (this.props.petCount / this.props.ponyPatienceThreshold);
 
 		const ponyStyle = {
 			padding: `${bootstrap.paddingBaseVertical} ${bootstrap.paddingBaseHorizontal}`,

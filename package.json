@@ -1,6 +1,6 @@
 {
   "name": "@civicsource/strapless",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A collection of shared variables from bootstrap and our own mixins",
   "main": "index.js",
   "author": "Archon Information Systems",

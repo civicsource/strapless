@@ -1,17 +1,17 @@
-# Strapless
-> A collection of shared variables from bootstrap and our own mixins
+# toetag
+> Use bootstrap variables in your Javascript
 
 ## Why does this exist?!?!?!
 
 So we can `require` shared vars from bootstrap for consistent look & feel without fooling with paths to less files after an `npm dedupe`.
 **If you just want to use an existing bootstrap style, just use the class and inject precompiled bootstrap.**
 
-See [this explanation](http://caitpotter.blogspot.com/2013/08/strapless-unadulterated-twbs-without.html) by somebody who came up with a similar idea and the same package name.
+See [this explanation](http://caitpotter.blogspot.com/2013/08/strapless-unadulterated-twbs-without.html) by somebody who came up with a similar idea and the ~~same package name~~ package name we used to have.
 
 ## How do I use this stupid thing!!?!?!?!?!
 
 ```
-npm install @civicsource/strapless --save
+npm install @toetag --save
 ```
 
 Then in your app's code:
@@ -19,20 +19,20 @@ Then in your app's code:
 ES6 Style (preferred):
 
 ```javascript
-import { bootstrap } from "@yournpmfeed/strapless";
+import { bootstrap } from "toetag";
 ```
 
 browserify ES5 style:
 
 ```javascript
-var bootstrap = require("@yournpmfeed/strapless").bootstrap;
+var bootstrap = require("toetag").bootstrap;
 ```
 
 ## Example use in some dumb React component
 
 ```javascript
 import React from "react";
-import { bootstrap } from "@yournpmfeed/strapless";
+import { bootstrap } from "toetag";
 import Color from "color-forge";
 
 export default class MyPrettyPony extends React.Component {

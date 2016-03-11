@@ -11,7 +11,7 @@ See [this explanation](http://caitpotter.blogspot.com/2013/08/strapless-unadulte
 ## How do I use this stupid thing!!?!?!?!?!
 
 ```
-npm install @toetag --save
+npm install toetag --save
 ```
 
 Then in your app's code:
@@ -37,7 +37,7 @@ import Color from "color-forge";
 
 export default class MyPrettyPony extends React.Component {
 	render() {
-		// the pony will run away if you get its haircut too dirty
+	// the pony will run away if you get its haircut too dirty
 		const maneColor = Color(bootstrap.grayLighter).mix(Color(bootstrap.grayDark), (this.props.petCount / this.props.ponyPatienceThreshold);
 
 		const ponyStyle = {

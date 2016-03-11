@@ -1,16 +1,16 @@
 {
-  "name": "@civicsource/strapless",
-  "version": "0.2.0",
-  "description": "A collection of shared variables from bootstrap and our own mixins",
+  "name": "toetag",
+  "version": "1.0.0",
+  "description": "Use bootstrap variables in your Javascript",
   "main": "index.js",
-  "author": "Archon Information Systems",
+  "author": "CivicSource",
   "license": "SEE LICENSE IN LICENSE",
   "scripts": {
     "build": "grunt"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/civicsource/bootplop.git"
+    "url": "https://github.com/civicsource/toetag.git"
   },
   "devDependencies": {
     "bootstrap": "^3.3.5",

@@ -1,6 +1,6 @@
 {
   "name": "toetag",
-  "version": "1.0.0",
+  "version": "3.3.6",
   "description": "Use bootstrap variables in your Javascript",
   "main": "index.js",
   "author": "Archon Information Systems",
@@ -13,7 +13,7 @@
     "url": "https://github.com/civicsource/toetag.git"
   },
   "devDependencies": {
-    "bootstrap": "^3.3.5",
+    "bootstrap": "^3.3.6",
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
     "grunt-less2js": "^0.1.4",

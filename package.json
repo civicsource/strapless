@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Use bootstrap variables in your Javascript",
   "main": "index.js",
-  "author": "CivicSource",
+  "author": "Archon Information Systems",
   "license": "SEE LICENSE IN LICENSE",
   "scripts": {
     "build": "grunt"

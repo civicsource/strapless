@@ -1,6 +1,6 @@
 {
   "name": "toetag",
-  "version": "3.3.6",
+  "version": "3.3.7",
   "description": "Use bootstrap variables in your Javascript",
   "main": "index.js",
   "author": "Archon Information Systems",
